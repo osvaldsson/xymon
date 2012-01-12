@@ -1,3 +1,9 @@
+xymon (4.3.7.nhnet1) lucid; urgency=low
+
+   * Building for Lucid
+
+ -- Olafur Osvaldsson <osvaldsson@nethonnun.is>  Thu, 12 Jan 2012 13:46:00 +0000
+
 xymon (4.3.7) unstable; urgency=low
 
    * rev 6803
