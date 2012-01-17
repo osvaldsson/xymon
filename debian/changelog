@@ -1,3 +1,15 @@
+xymon (4.3.7.nhnet5) lucid; urgency=low
+
+   * Fixed an ldap test compile error
+
+ -- Olafur Osvaldsson <osvaldsson@nethonnun.is>  Mon, 16 Jan 2012 14:11:00 +0000
+
+xymon (4.3.7.nhnet3) lucid; urgency=low
+
+   * Changes made to debian build config due to errors in the original
+
+ -- Olafur Osvaldsson <osvaldsson@nethonnun.is>  Fri, 13 Jan 2012 13:06:00 +0000
+
 xymon (4.3.7.nhnet1) lucid; urgency=low
 
    * Building for Lucid

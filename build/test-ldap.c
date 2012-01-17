@@ -1,6 +1,7 @@
 #include <time.h>
 #include <stdio.h>
 
+#define LDAP_DEPRECATED 1
 #include <ldap.h>
 #include <lber.h>
 
