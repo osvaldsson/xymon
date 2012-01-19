@@ -1,3 +1,9 @@
+xymon (4.3.7.nhnet7) lucid; urgency=low
+
+   * Changes to Ubuntu config files
+
+ -- Olafur Osvaldsson <osvaldsson@nethonnun.is>  Thu, 19 Jan 2012 09:13:00 +0000
+
 xymon (4.3.7.nhnet5) lucid; urgency=low
 
    * Fixed an ldap test compile error

@@ -21,7 +21,7 @@ create_includefiles ()
 	else
 		echo "XYMSRV=\"0.0.0.0\""
 		echo "XYMSERVERS=\"$XYMONSERVERS\""
-	fi > /var/run/xymon/bbdisp-runtime.cfg
+	fi > /var/run/xymon/xymonclient-runtime.cfg
 
 	for cfg in /etc/xymon/clientlaunch.d/*.cfg ; do
 		test -e $cfg && echo "include $cfg"
