@@ -105,6 +105,9 @@ install-client: build install-clean
 	echo "include /var/run/xymon/clientlaunch-include.cfg" >> \
 		$C/etc/xymon/clientlaunch.cfg
 	rm $C/usr/lib/xymon/client/runclient.sh
+	mv $C/usr/lib/xymon/client/etc/xymonclient.cfg /tmp/xymonclient.cfg.$$
+	cat /tmp/xymonclient.cfg.$$ | sed -e 's!^XYMSRV=.*!include /var/run/xymonclient-runtime.cfg!' | grep -v "^XYMSERVERS=" >$C/usr/lib/xymon/client/etc/xymonclient.cfg
+	rm /tmp/xymonclient.cfg.$$
 
 binary: binary-arch binary-indep
 
